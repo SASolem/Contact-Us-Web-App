@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact us for inquiries, support, or any questions. We'd love to hear from you.">
+    <meta name="keywords" content="contact, support, inquiries, message, email">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Contact Us - Your Company Name</title>
+</head>
+    <body>
+        <div class="formContainer">
+            <div class="navbar">
+                <a href="https://nenorvalls-projects-showcase.netlify.app/" class="back-to-landing">
+                    <h1 class="logo">Send us a message</h1>
+                </a>
+                <div class="menu-bar" id="menuIcon"></div>
+            </div>
+            <form id="ContactForm" enctype="multipart/form-data">
+                <label for="name">YOUR NAME:</label>
+                <input class="name" id="name" type="text" placeholder="Your name" name="name" required />
+                <span id="nameError" class="error"></span>
+                <br>
+    
+                <label for="email">EMAIL ADDRESS:</label>
+                <input id="email" type="email" name="email" placeholder="Your email" required />
+                <span id="emailError" class="error"></span>
+                <br>
+    
+                <label for="message">WHAT CAN WE DO FOR YOU?</label>
+                <textarea id="message" name="message" rows="4" placeholder="Type your message here" required></textarea>
+                <span id="messageError" class="error"></span>
+                <br>
+    
+                <label for="attachment">ATTACHMENTS</label>
+                <input type="file" id="attachment" name="attachment" placeholder="Upload files" />
+                <span id="attachmentError" class="error"></span>
+                <br>
+    
+                <button id="submitBtn" type="submit" value="submit">SUBMIT</button>
+            </form>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

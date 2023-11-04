@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.formContainer {
+    max-width: 400px;
+    max-height: 660px;
+    margin: 2rem auto;
+    padding: 20px;
+    background-image: url('https://i.ibb.co/319VyH7/background.jpg'); 
+    background-size: cover; 
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 1, 1, 0.7);
+    color: #fff;
+    padding: 10px 20px;
+    border-top: 1px solid transparent; 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea, select {
+    min-width: 380px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto;
+    width: 180px;
+    border: 1px solid #0056b3; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .formContainer {
+        max-width: 100%; 
+        padding: 10px;
+        text-align: center; 
+    }
+
+    .logo {
+        font-size: 18px; 
+        font-weight: normal;
+    }
+
+    .menu-bar {
+        width: 20px; 
+        height: 2px;
+    }
+
+    label {
+        font-weight: normal; 
+        margin-top: 5px;
+    }
+
+    input, textarea, select {
+        width: 100%; 
+        box-sizing: border-box; 
+        padding: 5px; 
+        margin: 5px auto; 
+        min-width: 180px; 
+    }
+
+    button {
+        width: 100%; 
+        margin: 1rem auto; 
+    }
+
+    .error {
+        font-size: 12px; 
+    }
+}
+
+.back-to-landing {
+    font-weight: bold;
+    display: block; 
+    margin: 0 auto; 
+    padding: 1rem; 
+    text-align: center; 
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .back-to-landing:hover {
+    text-decoration: underline;
+    color: #ffd700;
+  }
+  
+  
